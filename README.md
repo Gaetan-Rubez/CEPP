@@ -4,17 +4,17 @@
 
 In order to do the exercises of the hands-on session, you need a laptop.
 The software for the exercises together with all the necessary dependencies
-will run inside a "docker container" prepared in this purpose. The code
-sources for the exercises can be obtained from the git repository:
-
-```bash
-https://github.com/bovulpes/tuto-qc.git
-```
+will run inside a "docker container" prepared in this purpose. 
 
 The first step is to install the Docker Engine on your machine, by choosing
 the Community Edition specific to the Linux flavour of your operating system
 (you need administrator privileges on your system). Instructions on how to
 install it can be found here:
+
+for Windows:
+```bash
+https://docs.docker.com/docker-for-windows/
+```
 
 for Ubuntu:
 ```bash
