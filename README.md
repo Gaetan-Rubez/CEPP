@@ -6,15 +6,8 @@ In order to do the exercises of the hands-on session, you need a laptop.
 The software for the exercises together with all the necessary dependencies
 will run inside a "docker container" prepared in this purpose. 
 
-The first step is to install the Docker Engine on your machine, by choosing
-the Community Edition specific to the Linux flavour of your operating system
-(you need administrator privileges on your system). Instructions on how to
-install it can be found here:
-
-for Windows:
-```bash
-https://docs.docker.com/docker-for-windows/
-```
+The first step is to install the Docker Engine on your machine (you need administrator privileges on your system).
+Instructions on how to install it can be found here:
 
 for Ubuntu:
 ```bash
@@ -36,11 +29,14 @@ for Debian:
 https://docs.docker.com/install/linux/docker-ce/debian/
 ```
 
-For MacOS it is a bit more complicated, since you have to create first
-a Docker ID (a sort of account), as you can see here:
-
+for Mac
 ```bash
-https://hub.docker.com/editions/community/docker-ce-desktop-mac
+https://docs.docker.com/docker-for-mac/
+```
+
+for Windows:
+```bash
+https://docs.docker.com/docker-for-windows/
 ```
 
 The Docker ID could be useful for your if later on you want to create
