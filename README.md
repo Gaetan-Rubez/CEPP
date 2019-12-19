@@ -1,4 +1,4 @@
-# How to get myQLM ?
+# How to get myQLM for the Fast-Start ?
 
 ## Before coming to the Fast-Start
 
