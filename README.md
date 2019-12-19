@@ -43,21 +43,6 @@ The Docker ID could be useful for your if later on you want to create
 your own docker images and upload them on the docker hub in order to make
 them available to a large audience (they are public).
 
-## The simulators
-
-A comprehensive list of (free) simulators can be found here:
-
-```bash
-https://quantiki.org/wiki/list-qc-simulators
-```
-
-For this tutorial we will use:
-
-```bash
-Quantum++ (C++11)
-https://github.com/vsoftco/qpp
-```
-
 ## Using the myQLM simulator from Atos Quantum Lab
 
 Below are the instructions on how to download and use the myQLM docker image
