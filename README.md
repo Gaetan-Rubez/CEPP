@@ -62,7 +62,7 @@ Connected to doorway.bull.com.
 
 sftp> cd downloads
 
-sftp> get myqlm-runtime-0.0.5_latest.export
+sftp> get myqlm-runtime-faststart-0.0.6.1_latest.export
 
 Fetching…
 
@@ -74,7 +74,7 @@ Note: This can be done from any machines connected to Internet.
 2 – Import the image into your docker installation
 
 ```bash
-~> zcat myqlm-runtime-0.0.5_latest.export | docker import - myqlm-runtime-0.0.5:latest
+~> zcat myqlm-runtime-0.0.6.1_latest.export | docker import - myqlm-runtime-0.0.6.1:latest
 ```
 
 Note: One can use “docker images” to see the list of images
@@ -82,7 +82,7 @@ Note: One can use “docker images” to see the list of images
 3 – Instantiate a container from the image and connect to it
 
 ```bash
-~> [sudo] docker run -ti -p 8011:8888 myqlm-runtime-0.0.5:latest /bin/bash -l
+~> [sudo] docker run -ti -p 8011:8888 myqlm-runtime-0.0.6.1:latest /bin/bash -l
 ```
 
 Notes:
@@ -99,15 +99,9 @@ There is a README file that explains how to install myQLM at /var/myqlm/dist/0.0
  
 ```bash
 ~> su – qatuser
-~> myqlm_notebook/launch_myqlm_notebook
+~> cd qat-tutorial-0.0.6
+~> jupyter-notebook --no-browser --ip="0.0.0.0"
 …
-```
-
-Copy/paste this URL into your browser when you connect for the first time,
-to login with a token:
-
-```bash
-http://0.0.0.0:8888/?token=f508e5b2659e107d02b9821fb8a604e9f7dd960dd2fb16f1
 ```
 
 Note: You can also work in command line mode
