@@ -91,9 +91,9 @@ Notes:
 
 From another window, one can use “docker ps” to see the container.
        
-The myQLM wheels are already installed except for myqlm-simulators and are located at /var/myqlm/dist/0.0.5/atos/myqlm-0.0.5-atos/
+The myQLM wheels are already installed except for myqlm-simulators and are located at /var/myqlm/dist/0.0.6/atos/myqlm-0.0.6-atos/
        
-There is a README file that explains how to install myQLM at /var/myqlm/dist/0.0.5/atos/README.md
+There is a README file that explains how to install myQLM at /var/myqlm/dist/0.0.6/atos/README.md
  
 4 – Start a Jupyter server once inside the container
  
